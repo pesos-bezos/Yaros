@@ -10,7 +10,7 @@
     background: #202020;
 }
 .container{
-	width: 1319px;
+	max-width: 1319px;
 	margin: 0 auto;
 }
 .xz{
@@ -43,8 +43,8 @@ header{
 }
 .came{
 	background-image: url(Images/Image.png);
-    width: 570px;
-    height: 530px;
+    max-width: 570px;
+    max-height: 530px;
     background-size: 601px;
     background-repeat: no-repeat;
 	
@@ -63,7 +63,7 @@ header{
     font-family: "Open Sans";
     line-height: 32px;
     margin-top: 70px;
-    width: 262px;
+    max-width: 262px;
 
 }
 .krolik{
@@ -77,7 +77,7 @@ header{
     color: white;
     text-align: right;
     font-family: "Open Sans";
-    width: 340px;
+    max-width: 340px;
     margin-top: 16px;
     font-size: 14px;
 }
@@ -91,10 +91,10 @@ header{
 	
 }
 .BS{
-	height: 348px;
+	max-height: 348px;
 	display: flex;
 	flex-direction: column;
-	width: 340px;
+	max-width: 340px;
 	align-items: end;
 	justify-content: space-between;
 
@@ -119,9 +119,9 @@ header{
 
 }
 .yarick{
-	width: 459px;
+	max-width: 459px;
 	margin-top: 100px;
-	height: 513px;
+	max-height: 513px;
 }
 .sas{
 	color: black;
@@ -130,7 +130,7 @@ header{
 	padding-left: 4px;
 }
 .def{
-	width: 77px;
+	max-width: 77px;
 	margin-bottom: 30px;
 }
 .penchi{
