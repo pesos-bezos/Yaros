@@ -12,6 +12,7 @@
 .container{
 	max-width: 1319px;
 	margin: 0 auto;
+	width: 100%;
 }
 .xz{
 	color: white;
@@ -44,9 +45,10 @@ header{
 .came{
 	background-image: url(Images/Image.png);
     max-width: 570px;
-    max-height: 530px;
+    min-height: 530px;
     background-size: 601px;
     background-repeat: no-repeat;
+    width: 100%;
 	
 }
 .nn{
@@ -57,7 +59,7 @@ header{
 
 }
 .pilesos{
-	font-size: 34px;
+    font-size: 34px;
     color: white;
     text-align: right;
     font-family: "Open Sans";
@@ -67,7 +69,7 @@ header{
 
 }
 .krolik{
-	    font-size: 18px;
+    font-size: 18px;
     color: white;
     text-align: right;
     font-family: "Open Sans";
@@ -91,12 +93,13 @@ header{
 	
 }
 .BS{
-	max-height: 348px;
+	min-height: 348px;
 	display: flex;
 	flex-direction: column;
 	max-width: 340px;
 	align-items: end;
 	justify-content: space-between;
+	width: 100%;
 
 }
 .BS a{
@@ -121,7 +124,8 @@ header{
 .yarick{
 	max-width: 459px;
 	margin-top: 100px;
-	max-height: 513px;
+	min-height: 513px;
+	width: 100%;
 }
 .sas{
 	color: black;
@@ -132,10 +136,12 @@ header{
 .def{
 	max-width: 77px;
 	margin-bottom: 30px;
+	width: 100%;
 }
 .penchi{
-	width: 130px;
+	max-width: 130px;
 	margin-top: 217px;
+	width: 100%;
 
 }
 .maksim{
@@ -146,9 +152,10 @@ header{
 }
 .aralash{
 	color: white;
-	width: 437px;
+	max-width: 437px;
 	margin-top: 20px;
+	width: 100%;
 }
 .abaydno{
-	height: 20px;
+	min-height: 20px;
 }
